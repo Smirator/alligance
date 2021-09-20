@@ -1,0 +1,237 @@
+:root{
+  --white: #ffffff;
+  --bgc-blue-1: #16172e;
+  --bgc-blue-2: #0c0c1f;
+  --blue: #3A68B8;
+  --black: #000000;
+  --gray: #cfcccc;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin:0;
+  color: var(--white);
+}
+
+.bgc-bl-1{
+  background-color: var(--bgc-blue-1);
+}
+
+.bgc-bl-2{
+  background-color: var(--bgc-blue-2);
+}
+
+.c-blue{
+  color: var(--blue);
+}
+
+.c-gray{
+  color: var(--gray);
+}
+
+.max-w-1200{
+  max-width: 1200px;
+}
+
+.max-w-700{
+  max-width: 700px;
+}
+
+.max-w-600{
+  max-width: 600px;
+}
+
+.max-w-500{
+  max-width: 500px;
+}
+
+.max-w-360{
+  max-width: 360px;
+}
+
+.m-w-260{
+  max-width: 260px;
+}
+
+.ta-c{
+  text-align: center;
+}
+
+.ai-c{
+align-items: center;
+}
+
+.ac-c{
+  align-content: center;
+}
+
+.jc-sb{
+  justify-content: space-between;
+}
+
+.jc-se{
+  justify-content: space-between;
+}
+
+.jc-c{
+  justify-content: center;
+}
+
+.m-0a{
+  margin: 0px auto;
+}
+
+.m-0{
+  margin:0;
+}
+
+.m-20{
+  margin: 20px 0px;
+}
+
+.flex{
+  display: flex;
+}
+
+.fz-50{
+  font-size: 50px;
+}
+
+.fz-40{
+  font-size: 40px;
+}
+
+.fz-20{
+  font-size: 20px;
+}
+
+.p{
+  padding: 15px;
+}
+
+.p-50{
+  padding: 50px 0px;
+}
+
+.gap-15{
+  gap: 15px;
+}
+
+.gap-50{
+  gap:50px;
+}
+
+.bd{
+  border: 1px solid var(--bgc-blue-2);
+  border-radius: 25px;
+}
+
+
+.btn-blue{
+  width:112px;
+  height: 52px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: 1px solid var(--black);
+}
+
+.btn-w-h-1{
+  width:220px;
+  height: 57px;
+}
+
+.btn-w-h-2{
+  width:170px;
+  height: 57px;
+}
+
+/* @Media
+*/
+@media (max-width: 1024px) {
+
+  .max-w-600{
+    max-width: 700px;
+  }
+
+  .flex-d-col {
+    flex-direction: column;
+  }
+
+  .m-0a{
+    margin: 0px auto;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .max-w-600{
+    max-width: 480px;
+  }
+
+  .btn-w-h-2{
+    width: 340px;
+    height: 100px;
+  }
+
+  .btn-w-h-1{
+    width:340px;
+    height: 100px;
+  }
+
+  .fz-40{
+    font-size: 40px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .max-w-600{
+    max-width: 400px;
+  }
+
+  .btn-w-h-2{
+    width: 340px;
+    height: 100px;
+  }
+
+  .btn-w-h-1{
+    width:340px;
+    height: 100px;
+  }
+
+  .flex-d-col {
+    flex-direction: column;
+  }
+
+  .max-w-260{
+    max-width: 300px;
+  }
+
+  .max-w-360{
+    max-width: 700px;
+  }
+
+ .d-none {
+   display: none;
+  }
+
+  .m-0a {
+    margin: 0px auto;
+  }
+
+  .fz-40{
+    font-size: 40px;
+  }
+
+}
